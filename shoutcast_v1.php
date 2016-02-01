@@ -5,23 +5,22 @@ include 'EpiOAuth.php';
 include 'EpiTwitter.php';
 
 #Consumer key token
-$consumer_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
+$consumer_key = 'BOliPLC90gWGLGKiE4HdCMhI1';
 
 #Consumer secret token
-$consumer_secret = 'xxxxxxxxxxxxxxxxxxxxxxxxxx';
+$consumer_secret = ' P8Vmem2XEJRAE1F6W7rriZKH7JzzT1P6TLTygsYKusnL4t4ezO';
 
 #Access Token
-$token = 'xxxxxxxxxxxxxxxxxxxxxxxxx';
+$token = '3313525672-IyEaxZiALKTuzZmaQUtrkdIGFpZIr6LgoFSjWZT';
 
 #Access Token Secret 
-$secret= 'xxxxxxxxxxxxxxxxxxxxxxxxxxx';
+$secret= 'NIBqxRDMZvan3xqay1SXSoV7kyQE3dw1CwESBxABvXMbj';
 
 $refresh = "60";  // Page refresh time in seconds. Put 0 for no refresh. (only used if updating via browser)
 $timeout = "5"; // Number of seconds before connecton times out.
 
-$ip[1] = "127.0.0.1"; // IP address of shoutcast server
-$port[1] = "8000"; // Port of shoutcast server
-
+$ip[1] = "50.22.218.73"; // 
+$port[1] = "11286"; // 
 //END CONFIGURATION
 $twitterObj = new EpiTwitter($consumer_key, $consumer_secret, $token, $secret);
 $twitterObjUnAuth = new EpiTwitter($consumer_key, $consumer_secret);
